@@ -28,18 +28,18 @@ body > div {
     background-color: white;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .left-content {
     margin-left: 15vw;
 }
 
 .right-content {
     margin-right: 15vw;
+}
+
+
+.header {
+    justify-content: space-between;
+    height: 10vh;
 }
 
 .header-logo {
@@ -60,4 +60,40 @@ body > div {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+
+.hero {
+    justify-content: space-between;
+}
+
+.hero .left-content {
+    width: 30%;
+    margin-bottom: 75px;
+}
+
+.hero .left-content h1 {
+    margin-bottom: 0;
+
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero .left-content p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.hero button {
+    border-radius: 6px;
+    padding: 3px 15px;
+    background: #3882F6;
+    border-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.image-placeholder {
+    background-color: #484c55;
+    color: #F9FAF8;
 }
