@@ -64,22 +64,32 @@ a {
 
 
 .hero {
+    padding-top: 30px;
+    padding-bottom: 75px;
+}
+
+.hero-container {
+    display: flex;
+    flex-grow: 1;
     justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    gap: 10vw;
 }
 
-.hero .left-content {
+.hero-container > div {
     width: 30%;
-    margin-bottom: 75px;
 }
 
-.hero .left-content h1 {
+.hero-container h1 {
+    margin-top: 0;
     margin-bottom: 0;
 
     font-size: 48px;
     font-weight: 900;
 }
 
-.hero .left-content p {
+.hero-container p {
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -96,4 +106,9 @@ a {
 .image-placeholder {
     background-color: #484c55;
     color: #F9FAF8;
+    flex-grow: 1;
+    align-self: stretch;
+
+    text-align: center;
+    align-content: center;
 }
