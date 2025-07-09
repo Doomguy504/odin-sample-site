@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+
+    background-color: #1F2937;
+}
+
+.header-logo {
+    margin-left: 150px;
+
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    gap: 18px;
+    margin-right: 150px;
+
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
