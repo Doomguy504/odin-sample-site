@@ -12,12 +12,20 @@ body > div {
     width: 100vw;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-grow: 1;
 }
 
 .header,
-.hero {
+.hero,
+.footer {
     background-color: #1F2937;
+    color: #F9FAF8
+}
+
+.content-one,
+.content-three {
+    background-color: white;
 }
 
 .header {
@@ -30,7 +38,6 @@ body > div {
     margin-left: 150px;
 
     font-size: 24px;
-    color: #F9FAF8;
 }
 
 .header-links {
@@ -40,7 +47,6 @@ body > div {
 
     list-style: none;
     font-size: 18px;
-    color: #E5E7EB
 }
 
 a {
