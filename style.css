@@ -37,6 +37,8 @@ body > div {
 }
 
 
+/* Header */
+
 .header {
     justify-content: space-between;
     height: 10vh;
@@ -62,6 +64,8 @@ a {
     color: inherit;
 }
 
+
+/* Hero */
 
 .hero {
     padding-top: 30px;
@@ -112,3 +116,5 @@ a {
     text-align: center;
     align-content: center;
 }
+
+/* Content one */
