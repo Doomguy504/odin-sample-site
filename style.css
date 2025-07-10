@@ -43,6 +43,14 @@ body > div {
     margin-right: 15vw;
 }
 
+button {
+    border-radius: 8px;
+    padding: 5px 35px;
+    color: #F9FAF8;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 
 /* Header */
 
@@ -105,12 +113,8 @@ a {
 }
 
 .hero button {
-    border-radius: 6px;
-    padding: 3px 15px;
     background: #3882F6;
     border-color: #3882F6;
-    color: #F9FAF8;
-    font-weight: bold;
 }
 
 .image-placeholder {
@@ -217,5 +221,6 @@ a {
 }
 
 .content-three button {
-    border-color: white;
+    border-color: #E5E7EB;
+    background: #3882F6;
 }
