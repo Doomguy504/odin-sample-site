@@ -28,6 +28,13 @@ body > div {
     background-color: white;
 }
 
+.hero,
+.content-one,
+.content-two,
+.content-three {
+    padding-bottom: 75px;
+}
+
 .left-content {
     margin-left: 15vw;
 }
@@ -69,7 +76,6 @@ a {
 
 .hero {
     padding-top: 30px;
-    padding-bottom: 75px;
 }
 
 .hero-container {
@@ -122,7 +128,6 @@ a {
 
 .content-one {
     flex-direction: column;
-    padding-bottom: 75px;
 }
 
 .content-one h1 {
