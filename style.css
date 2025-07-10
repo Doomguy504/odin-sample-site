@@ -187,3 +187,35 @@ a {
     font-size: 22px;
     font-weight: bold;
 }
+
+
+/* Content three */
+
+.content-three {
+    padding-top: 75px;
+}
+
+.content-three .bg-box {
+    width: calc(100% - 30vw);
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #3882F6;
+    border-radius: 10px;
+
+    color: #E5E7EB;
+}
+
+.content-three h2 {
+    margin-bottom: 0;
+}
+
+.content-three p {
+    margin-top: 0px;
+}
+
+.content-three button {
+    border-color: white;
+}
